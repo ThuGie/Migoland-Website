@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* * { margin:0px; padding:0px; } */
+/* entities */
+body {
+	/* background-color:#1c2132; */
+        margin:0px; padding:0px; 
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color:#000;
+}
+.holder{
+	margin-top:30px;
+}
+.item{
+	height:105px;
+	background-image:url(/web/20110610072656im_/http://www.migoland.com/images/item1.png);
+	background-repeat:no-repeat;
+	margin-left:14px;
+	position:relative;
+	top:50px;
+}
+input, select, textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+form { margin:0px; padding:0px; display:inline; } 
+img { border:0px none #000; display:inline; }
+div { margin:0px; padding:0px; }
+a, a:visited {
+	color:#0c66ab;
+	text-decoration:none;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+/* classes */
+.clear { clear:both; }
+.text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	color:#000;
+    font-weight:normal;
+}
+.textnegative {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	color:#a00;
+	font-weight:bold;
+}
+.textpositive {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	/* color:#67ae4d; */
+	color:#0a0;
+	font-weight:bold;
+}
+.textmessage {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:14px;
+	/* color:#67ae4d; */
+	color:#000;
+	font-weight:bold;
+}
+
+.page_con_default {
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid #f00;
+	width: 597px;
+	height: 807px;
+	/* background-image: url(/web/20110610072656im_/http://www.migoland.com/images/middle_beneath.gif); */
+	background-repeat: no-repeat;
+}
+
+.papyrus4_outer {
+	margin: 0px;
+	border: 0px solid #000;
+	padding: 65px 0px 0px 0px;
+}
+.papyrus4 {
+	margin: 0px;
+	border: 0px solid #0f0;
+	padding: 20px 0px 0px 20px;
+	width: 415px;
+	height: 290px;
+	/*background-image: url(/web/20110610072656im_/http://www.migoland.com/images/papyrus4.gif);*/
+	background-repeat: no-repeat;
+}
+.papyrus4headline {
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	margin: 0px;
+	border: 0px solid #f00;
+	padding: 0px;
+	color: #000;
+	font-family: Georgia, Palatino Linotype, Book Antiqua, Palatino, Times New Roman, Times, serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 26px;
+}
+.papyrus4text {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	margin: 0px;
+	border: 0px solid #0f0;
+	padding: 0px 5px 0px 0px;
+	width: 495px;
+	height: 305px;
+	overflow: auto;
+	color: #000;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.papyrus5_outer {
+	margin: 0px;
+	border: 0px solid #000;
+	padding: 9px 0px 0px 0px;
+	height:110px;
+}
+.papyrus5 {
+	margin: 110px 0 0 0;
+	border: 0px solid #0f0;
+	padding: 0px;
+	width: 550px;
+	/*height: 600px;*/
+	background-image:url(/web/20110610072656im_/http://www.migoland.com/images/payments_bg.jpg)
+	background-repeat: no-repeat;
+}
+.papyrus5headline {
+	position: absolute;
+	left: 20px;
+	top: 15px;
+	margin: 0px;
+	border: 0px solid #f00;
+	padding: 0px;
+	color: #000;
+	font-family: Georgia, Palatino Linotype, Book Antiqua, Palatino, Times New Roman, Times, serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 26px;
+}
+.papyrus5text {
+        width:500px;
+        line-height:14px;
+        text-align: left;
+	left: 20px;
+	top: 170px;
+	margin: 0px;
+	border: 0px solid #0f0;
+	padding: 20px 20px 20px 20px;
+	width: 495px;
+	overflow: auto;
+	color: #000;
+	font-size: 12px;
+}
+.papyrus5leftcolumn {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	margin:0px;
+	border:0px solid #f00;
+	padding:0px;
+	width:245px;
+}
+.papyrus5rightcolumn {
+	position: absolute;
+	left: 285px;
+	top: 50px;
+	margin:0px;
+	border:0px solid #0f0;
+	padding:0px;
+	width:245px;
+}
+
+/* Account Settings */
+dl.accountsettings dt { margin-top:5px; font-weight: bold; }
+dl.accountsettings dd { margin-left: 0px; }
+dl.accountsettings dd input { width: 215px; }
+dl.accountsettings dd select { width: 220px; }
+.accountsettingsform div input { width: 215px; }
+.accountsettingsform div select { width: 220px; }
+
+/* Support Form */
+dl.supportfields dt { margin-top:5px; font-weight: bold; }
+dl.supportfields dd { margin-left: 0px; }
+dl.supportfields dd input { width: 215px; }
+dl.supportfields dd select { width: 220px; }
+dl.supportfields dd textarea { width: 215px; height: 130px; font-family:Arial;}
+
+/* payments */
+dl.paymentinformation { margin-top: 10px; }
+dl.paymentinformation dt { margin-top:5px; font-weight: bold; }
+dl.paymentinformation dd { margin-left: 0px; }
+dl.paymentinformation dd input { width: 215px; }
+dl.paymentinformation dd select { width: 220px; }
+.paymentinformationform div input { width: 215px; }
+.paymentinformationform div select { width: 220px; }
+.paymentheadline {
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:24px;
+	padding: 20px 20px 20px 20px;
+    color:#4891DC;
+}

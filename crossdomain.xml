@@ -1,0 +1,5 @@
+<cross-domain-policy>
+<allow-access-from domain="localhost"/>
+<allow-access-from domain="static.migoland.com"/>
+<allow-access-from domain="mp01.migoland.com"/>
+</cross-domain-policy>
