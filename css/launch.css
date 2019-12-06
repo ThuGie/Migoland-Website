@@ -1,0 +1,22 @@
+body {
+  background-image: url('../images/background2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  //background-size: cover;
+}
+
+#box {
+	color: green;
+	background-color: white;
+	margin: 80px 40px 30px 40px;
+	padding: 5px 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: lime;
+}
+
+#protocol {
+	display: block;
+	width: 229px;
+	margin: 0 auto;
+}
